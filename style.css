@@ -1,0 +1,123 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.flex{
+     display: flex;
+}
+.wrapper{
+     max-width: 1180px;
+     margin: 0 auto;
+     height: 100vh;
+}
+.header{
+     text-align: center;
+     padding-top: 30px;
+     margin-bottom: 225px;
+}
+.header-menu{
+     text-align: center;
+}
+.header-title{
+     margin: 30px 0 25px ;
+}  
+.header-item{
+     display: flex;
+     margin:  0 auto;
+     margin-left: 168px;
+
+}
+.header-link{
+     text-decoration: none;
+     margin: 65px;
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 32px;
+     color: #23242C;
+     font-weight: 700;
+}
+span{
+     font-style: 10px;
+}
+.header-list{
+     list-style: none;
+}
+.content{
+     margin: 165px 0 253px;
+     display: flex;
+     justify-content: space-between;
+     position: relative;
+}
+.content-info{
+  
+    
+     justify-content: flex-start;
+}
+.content-circle{
+     position: absolute;
+     left: 40%;
+     top: 0;
+}
+.content-cilrcle{
+       position: absolute;
+     left: 40%;
+     top: 0;
+}
+.content-button{
+     border: 1px solid black;
+     padding: 18px 47px;
+     max-width: 185px;
+     background-color: white;
+     outline: none;
+     cursor: pointer;
+     border-radius: 4px;
+   box-shadow: 0px 8px 34px rgba(150, 79, 76, 0.32);
+
+}
+.content-title{
+     font-family:" Playfair Display";
+     font-style: normal;
+     font-weight: bold;
+     font-size: 102px;
+     line-height: 110px;
+     width: 828px;
+}
+.content-suptitle{
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 300;
+     font-size: 16px;
+     line-height: 24px;
+     color: #967675;
+}
+.content-boys{
+     position: absolute;
+     left: 70%;
+     top: -80px;
+}
+
+
+.reviews-title{
+     font-family:" Playfair Display";
+     font-style: italic;
+     font-weight: normal;
+     font-size: 38px;
+     line-height: 51px;
+     text-align: center;
+     color: #111111;
+}
+.reviews-text{
+     font-family:" Poppins";
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 165.9%;
+     color: #9D8888;
+     width: 233px;
+}
+.content-reviews{
+     margin-left: 100px;
+}
