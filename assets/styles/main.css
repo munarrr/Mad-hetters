@@ -1,15 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@0;1&display=swap');
 *{
      margin: 0;
      padding: 0;
      box-sizing: border-box;
 }
+img{
+     max-width: 100%;
+}
 .flex{
      display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.text{
+    font-family: 'Playfair Display SC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    color: #967675;
 }
 .wrapper{
      max-width: 1180px;
      margin: 0 auto;
      height: 100vh;
+     background-image: url("../img/header/grid.png");
+     background-repeat: repeat;
+     background-size: cover;
+}
+.title{
+     font-family: 'Playfair Display SC', serif;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 61px;
+     width: 828px;
 }
 .header{
      text-align: center;
@@ -57,34 +82,28 @@ span{
      justify-content: flex-start;
 }
 .content-circle{
-     position: absolute;
-     left: 40%;
-     top: 0;
+        position: absolute;
+    left: 51%;
+    top: 7px;
 }
 .content-cilrcle{
-       position: absolute;
-     left: 40%;
-     top: 0;
+    position: absolute;
+    left: 59%;
+    top: 92px;
 }
 .content-button{
-     border: 1px solid black;
+     border: 2px solid #967675;
      padding: 18px 47px;
      max-width: 185px;
      background-color: white;
+     color: #967675;
      outline: none;
      cursor: pointer;
      border-radius: 4px;
-   box-shadow: 0px 8px 34px rgba(150, 79, 76, 0.32);
+     box-shadow: 0 8px 34px rgba(150, 78, 76, 0.32);
 
 }
-.content-title{
-     font-family:" Playfair Display";
-     font-style: normal;
-     font-weight: bold;
-     font-size: 102px;
-     line-height: 110px;
-     width: 828px;
-}
+
 .content-suptitle{
      font-family: "Poppins";
      font-style: normal;
@@ -97,11 +116,18 @@ span{
      position: absolute;
      left: 70%;
      top: -80px;
+     transition: 2s;
+}
+.content-boys:hover{
+     z-index: 1;
+}
+.content-grils:hover{
+     transform: scale(1.2);
+     z-index: 7;
 }
 
-
 .reviews-title{
-     font-family:" Playfair Display";
+    font-family: 'Playfair Display SC', serif;
      font-style: italic;
      font-weight: normal;
      font-size: 38px;
@@ -120,4 +146,24 @@ span{
 }
 .content-reviews{
      margin-left: 100px;
+     display: flex;
+     justify-content: flex-start;
+     flex-direction: column;
+}
+
+/* ========range===================== */
+
+.range{
+     text-align: center;
+}
+
+
+.range-text{
+      font-family: 'Poppins';
+     font-style: "Itali";
+     font-size : 18px;
+     color:#967675;
+}
+.range-right{
+     background-color: #F6ECE8;
 }
